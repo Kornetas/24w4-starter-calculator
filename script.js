@@ -52,3 +52,20 @@ function clearDisplay() {
 }
 
 updateDisplay()
+
+function switchTheme() {
+  const calculator = document.querySelector('.calculator');
+  if (calculator.style.backgroundColor === 'white') {
+      calculator.style.backgroundColor = '#333';
+      calculator.style.color = 'white';
+      document.querySelectorAll('.button').forEach(button => {
+          button.style.color = 'white';
+      });
+  } else {
+      calculator.style.backgroundColor = 'white';
+      calculator.style.color = 'black';
+      document.querySelectorAll('.button').forEach(button => {
+          button.style.color = 'black';
+      });
+  }
+}
