@@ -3,8 +3,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #4c804e;
+  /* background-color: #4c804e; */
+  background-image: url('https://img.freepik.com/premium-zdjecie/psychodeliczne-dziwne-tlo-z-wieloma-oczami-i-innymi-czesciami-twarzy_1053-13984.jpg');
   margin: 0;
+  background-size: cover; /* Skaluje obraz tła, aby w pełni pokrywał obszar tła */
+  background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu tła */
+  background-position: center center; /* Wyśrodkowuje obraz tła */
 }
 
 .calculator {
@@ -18,12 +22,12 @@ body {
 }
 
 .display {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #333;
-  color: #149797;
-  border-radius: 5px;
+  background-color: #e94747;
+  color: #3bca17;
+  border-radius: 7px;
   text-align: right;
 }
 
@@ -39,7 +43,7 @@ body {
   border: none;
   background-color: wheat;
   color: red;
-  border-radius: 55px;
+  border-radius: 50px;
   cursor: pointer;
 }
 
