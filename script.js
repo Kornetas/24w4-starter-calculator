@@ -54,18 +54,28 @@ function clearDisplay() {
 updateDisplay()
 
 function switchTheme() {
-  const calculator = document.querySelector('.calculator');
-  if (calculator.style.backgroundColor === 'white') {
-      calculator.style.backgroundColor = '#333';
-      calculator.style.color = 'white';
+  const calculator = document.querySelector('.calculator')
+  if (calculator.style.backgroundColor === 'orange') {
+      calculator.style.backgroundColor = ''
+      calculator.style.color = 'orange'
       document.querySelectorAll('.button').forEach(button => {
-          button.style.color = 'white';
-      });
+          button.style.color = 'orange'
+      })
   } else {
-      calculator.style.backgroundColor = 'white';
-      calculator.style.color = 'black';
+      calculator.style.backgroundColor = 'orange'
+      calculator.style.color = 'black'
       document.querySelectorAll('.button').forEach(button => {
-          button.style.color = 'black';
-      });
+          button.style.color = 'black'
+      })
   }
 }
+
+function playSound() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+}
+function playSoundTwo() {
+  var audio = document.getElementById("myAudioTwo");
+  audio.play();
+}
+

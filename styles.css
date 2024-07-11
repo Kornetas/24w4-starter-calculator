@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #4c804e;
   margin: 0;
 }
 
@@ -12,8 +12,8 @@ body {
   margin: 100px auto;
   background-color: #2b2b2b;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, );
   
 }
 
@@ -22,7 +22,7 @@ body {
   margin-bottom: 10px;
   padding: 10px;
   background-color: #333;
-  color: white;
+  color: #149797;
   border-radius: 5px;
   text-align: right;
 }
@@ -39,23 +39,43 @@ body {
   border: none;
   background-color: #333;
   color: red;
-  border-radius: 5px;
+  border-radius: 55px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #BFC0C0
 }
 
 .btn-clear {
-  background-color: #28a745;
+  background-color: black;
 }
 
 .btn-clear:hover {
-  background-color: #218838;
+  background-color: #BFC0C0
 }
 
 .special {
-  background-color: #cc0000;
+  background-color: darkmagenta;
+  cursor: pointer;
+  font-size: 90%;
 }
 
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+div {
+  /* width: 100px;
+  height: 100px; */
+  position:relative;
+  /* background-color: red; */
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
