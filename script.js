@@ -55,14 +55,14 @@ updateDisplay()
 
 function switchTheme() {
   const calculator = document.querySelector('.calculator')
-  if (calculator.style.backgroundColor === 'orange') {
+  if (calculator.style.backgroundColor === 'white') {
       calculator.style.backgroundColor = ''
-      calculator.style.color = 'orange'
+      calculator.style.color = 'white'
       document.querySelectorAll('.button').forEach(button => {
-          button.style.color = 'orange'
+          button.style.color = 'white'
       })
   } else {
-      calculator.style.backgroundColor = 'orange'
+      calculator.style.backgroundColor = 'white'
       calculator.style.color = 'black'
       document.querySelectorAll('.button').forEach(button => {
           button.style.color = 'black'
@@ -78,4 +78,18 @@ function playSoundTwo() {
   var audio = document.getElementById("myAudioTwo");
   audio.play();
 }
+function playSoundThree() {
+  var audio = document.getElementById("myAudioThree");
+  audio.play();
+}
+function playSoundFour() {
+  var audio = document.getElementById("myAudioFour");
+  audio.play();
+}
+function playSoundFive() {
+  var audio = document.getElementById("myAudioFive");
+  audio.play();
+}
+
+
 

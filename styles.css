@@ -37,7 +37,7 @@ body {
   padding: 20px;
   font-size: 1.5em;
   border: none;
-  background-color: #333;
+  background-color: wheat;
   color: red;
   border-radius: 55px;
   cursor: pointer;
@@ -48,7 +48,7 @@ body {
 }
 
 .btn-clear {
-  background-color: black;
+  background-color: #38369A;
 }
 
 .btn-clear:hover {
@@ -56,17 +56,17 @@ body {
 }
 
 .special {
-  background-color: darkmagenta;
+  background-color: #7768AE;
   cursor: pointer;
   font-size: 90%;
 }
 
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:#E15554; left:0px; top:0px;}
+  25%  {background-color:#E1BC29; left:200px; top:0px;}
+  50%  {background-color:#4D9DE0; left:200px; top:200px;}
+  75%  {background-color:#3BB273; left:0px; top:200px;}
+  100% {background-color:#E15554; left:0px; top:0px;}
 }
 
 
